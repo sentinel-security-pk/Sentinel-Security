@@ -1,0 +1,421 @@
+/* ===================================
+   SENTINEL SECURITY V2
+   STYLE.CSS - PART 1
+=================================== */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:Arial,Helvetica,sans-serif;
+background:#08111f;
+color:#ffffff;
+line-height:1.7;
+}
+
+img{
+max-width:100%;
+display:block;
+}
+
+a{
+text-decoration:none;
+}
+
+header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:#0d1628;
+border-bottom:2px solid #00bfff;
+z-index:999;
+}
+
+nav{
+width:90%;
+max-width:1200px;
+margin:auto;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 0;
+}
+
+.logo-area{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.logo{
+width:70px;
+height:70px;
+border-radius:15px;
+box-shadow:0 0 25px #00bfff;
+}
+
+.logo-area h2{
+color:#00bfff;
+font-size:28px;
+}
+
+.logo-area p{
+font-size:14px;
+color:#bbbbbb;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav ul li a{
+color:white;
+font-size:17px;
+font-weight:bold;
+transition:.3s;
+}
+
+nav ul li a:hover{
+color:#00bfff;
+}
+
+.hero{
+width:90%;
+max-width:1200px;
+margin:auto;
+min-height:100vh;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding-top:120px;
+gap:50px;
+}
+
+.hero-left{
+flex:1;
+}
+
+.hero-left h1{
+font-size:58px;
+line-height:1.2;
+margin-bottom:25px;
+color:#00bfff;
+}
+
+.hero-left p{
+font-size:20px;
+color:#d5d5d5;
+margin-bottom:35px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:#00bfff;
+color:white;
+border-radius:8px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+background:#0099dd;
+transform:translateY(-5px);
+box-shadow:0 0 25px #00bfff;
+}
+
+.hero-right{
+flex:1;
+display:flex;
+justify-content:center;
+}
+
+.hero-right img{
+width:350px;
+border-radius:20px;
+box-shadow:0 0 40px #00bfff;
+}
+/* ==========================
+   ABOUT SECTION
+========================== */
+
+section{
+width:90%;
+max-width:1200px;
+margin:auto;
+padding:50px 0;
+}
+
+section h2{
+text-align:center;
+font-size:42px;
+7margin-bottom:30px;
+color:#00bfff;
+}
+
+#about p{
+max-width:900px;
+margin:auto;
+text-align:center;
+font-size:18px;
+color:#d5d5d5;
+line-height:1.9;
+}
+
+/* ==========================
+   SERVICES
+========================== */
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.card{
+background:#101c2f;
+padding:30px;
+border-radius:18px;
+border:1px solid rgba(0,191,255,.25);
+transition:.4s;
+box-shadow:0 0 12px rgba(0,191,255,.08);
+}
+
+.card:hover{
+transform:translateY(-10px);
+border-color:#00bfff;
+box-shadow:0 0 25px rgba(0,191,255,.5);
+}
+
+.card h3{
+font-size:26px;
+color:#00bfff;
+margin-bottom:15px;
+}
+
+.card p{
+font-size:17px;
+color:#d5d5d5;
+line-height:1.8;
+}
+
+/* ==========================
+   STATS
+========================== */
+
+#stats .card{
+text-align:center;
+}
+
+#stats h3{
+font-size:42px;
+color:#00bfff;
+margin-bottom:10px;
+}
+
+#stats p{
+font-size:18px;
+color:#d5d5d5;
+}
+/* ==========================
+   CONTACT SECTION
+========================== */
+
+#contact{
+padding-bottom:100px;
+}
+
+form{
+max-width:700px;
+margin:40px auto 0;
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+input,
+textarea{
+width:100%;
+padding:16px;
+background:#101c2f;
+border:1px solid #1d3b5a;
+border-radius:10px;
+color:#fff;
+font-size:17px;
+outline:none;
+transition:.3s;
+}
+
+input:focus,
+textarea:focus{
+border-color:#00bfff;
+box-shadow:0 0 15px rgba(0,191,255,.4);
+}
+
+textarea{
+height:180px;
+resize:none;
+}
+
+button{
+padding:16px;
+background:#00bfff;
+color:#fff;
+font-size:18px;
+font-weight:bold;
+border:none;
+border-radius:10px;
+cursor:pointer;
+transition:.3s;
+}
+
+button:hover{
+background:#0099dd;
+transform:translateY(-3px);
+box-shadow:0 0 20px #00bfff;
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+footer{
+background:#0d1628;
+border-top:2px solid #00bfff;
+text-align:center;
+padding:40px 20px;
+}
+
+footer h3{
+font-size:28px;
+color:#00bfff;
+margin-bottom:10px;
+}
+
+footer p{
+color:#cfcfcf;
+margin:8px 0;
+}
+/* ==========================
+   RESPONSIVE DESIGN
+========================== */
+
+@media (max-width:900px){
+
+nav{
+flex-direction:column;
+gap:20px;
+}
+
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero{
+flex-direction:column-reverse;
+text-align:center;
+padding-top:160px;
+}
+
+.hero-left h1{
+font-size:40px;
+}
+
+.hero-left p{
+font-size:18px;
+}
+
+.hero-right img{
+width:250px;
+}
+
+}
+
+@media (max-width:600px){
+
+.logo{
+width:55px;
+height:55px;
+}
+
+.logo-area h2{
+font-size:22px;
+}
+
+.logo-area p{
+font-size:12px;
+}
+
+nav ul{
+gap:15px;
+}
+
+nav ul li a{
+font-size:15px;
+}
+
+section h2{
+font-size:32px;
+}
+
+.hero-left h1{
+font-size:32px;
+}
+
+.hero-left p{
+font-size:16px;
+}
+
+.cards{
+grid-template-columns:1fr;
+}
+
+.btn,
+button{
+width:100%;
+text-align:center;
+}
+
+}
+
+/* ==========================
+   SMOOTH ANIMATIONS
+========================== */
+
+.card{
+animation:fadeUp .8s ease;
+}
+
+@keyframes fadeUp{
+
+from{
+opacity:0;
+transform:translateY(30px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+/* ==========================
+   END OF STYLE.CSS
+========================== */
+html{
+    scroll-padding-top:100px;
+}
+
+section{
+    scroll-margin-top:100px;
+}
