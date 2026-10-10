@@ -59,7 +59,8 @@ if (form) {
         })
         .catch((error) => {
             alert("❌ Failed to send message.");
-            console.log(error);
+            console.error("EmailJS Error:", error);
+alert(JSON.stringify(error));
         });
     });
 }
