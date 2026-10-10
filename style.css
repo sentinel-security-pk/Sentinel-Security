@@ -419,3 +419,26 @@ html{
 section{
     scroll-margin-top:100px;
 }
+/* Active Navigation */
+nav a.active{
+    color:#00bfff;
+    border-bottom:2px solid #00bfff;
+    transition:.3s;
+}
+/* ===== Premium Button ===== */
+
+.hero .btn{
+    display:inline-block;
+    padding:15px 35px;
+    background:#00bfff;
+    color:#fff;
+    border-radius:10px;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+    transition:.4s;
+    box-shadow:0 0 20px rgba(0,191,255,.5);
+}
+
+.hero .btn:hover{
+    background:#0099cc

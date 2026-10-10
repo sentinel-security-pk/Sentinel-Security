@@ -36,13 +36,54 @@ cards.forEach(card=>{
     observer.observe(card);
 });
 
-// Contact form
+// ===== EmailJS Contact Form =====
+
+emailjs.init({
+    publicKey: "j0zPQIImF3ifisgBJ",
+});
+
 const form = document.querySelector("form");
 
-if(form){
-    form.addEventListener("submit",function(e){
+if (form) {
+    form.addEventListener("submit", function (e) {
         e.preventDefault();
-        alert("Thank you! Your message has been received.");
-        form.reset();
+
+        emailjs.sendForm(
+            "service_gi5ul1r",
+            "template_u4m9yee",
+            this
+        )
+        .then(() => {
+            alert("✅ Message sent successfully!");
+            form.reset();
+        })
+        .catch((error) => {
+            alert("❌ Failed to send message.");
+            console.log(error);
+        });
     });
 }
+// Active Navigation on Scroll
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll("nav a");
+
+window.addEventListener("scroll", () => {
+    let current = "";
+
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop - 120;
+        const sectionHeight = section.clientHeight;
+
+        if (window.scrollY >= sectionTop) {
+            current = section.getAttribute("id");
+        }
+    });
+
+    navLinks.forEach(link => {
+        link.classList.remove("active");
+
+        if (link.getAttribute("href") === "#" + current) {
+            link.classList.add("active");
+        }
+    });
+});
