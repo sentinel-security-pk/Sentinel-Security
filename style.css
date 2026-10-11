@@ -466,3 +466,16 @@ nav a.active{
 .whatsapp-btn:hover{
     transform:scale(1.1);
 }
+#form-status{
+    margin-top:15px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.success{
+    color:#22c55e;
+}
+
+.error{
+    color:#ef4444;
+}

@@ -47,22 +47,43 @@ const form = document.querySelector("form");
 if (form) {
     form.addEventListener("submit", function (e) {
         e.preventDefault();
+const btn=document.getElementById("submit-btn");
 
+btn.textContent="Sending...";
         emailjs.sendForm(
             "service_gi5ul1r",
             "template_t8zrnhj",
             this
         )
-        .then(() => {
-            alert("✅ Message sent successfully!");
-            form.reset();
-        })
-        .catch((error) => {
-            alert("❌ Failed to send message.");
-            console.error("EmailJS Error:", error);
-alert(JSON.stringify(error));
-        });
+.then(() => {
+
+    const status=document.getElementById("form-status");
+    const btn=document.getElementById("submit-btn");
+
+    status.className="success";
+    status.textContent="✅ Message sent successfully.";
+
+    btn.textContent="Send Message";
+
+    form.reset();
+
+})
+
+.catch((error)=>{
+
+    const status=document.getElementById("form-status");
+    const btn=document.getElementById("submit-btn");
+
+    status.className="error";
+    status.textContent="❌ Failed to send message.";
+
+    btn.textContent="Send Message";
+
+    console.error(error);
+
+});
     });
+
 }
 // Active Navigation on Scroll
 const sections = document.querySelectorAll("section");
