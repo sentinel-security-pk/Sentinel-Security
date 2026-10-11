@@ -50,7 +50,7 @@ if (form) {
 
         emailjs.sendForm(
             "service_gi5ul1r",
-            "template_u4m9yee",
+            "template_t8zrnhj",
             this
         )
         .then(() => {
