@@ -131,3 +131,36 @@ topBtn.addEventListener("click", () => {
     });
 
 });
+// ===============================
+// AUTO YEAR
+// ===============================
+
+const year = document.getElementById("year");
+
+if (year) {
+    year.textContent = new Date().getFullYear();
+}
+
+// ===============================
+// SMOOTH BACK TO TOP
+// ===============================
+
+const backTop = document.querySelector(".back-top");
+
+if (backTop) {
+
+    backTop.addEventListener("click", function (e) {
+
+        e.preventDefault();
+
+        window.scrollTo({
+
+            top: 0,
+
+            behavior: "smooth"
+
+        });
+
+    });
+
+}

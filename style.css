@@ -502,3 +502,122 @@ nav a.active{
 #topBtn:hover{
     transform:scale(1.1);
 }
+/* ===== CONTACT SECTION ===== */
+
+.contact-wrapper{
+display:flex;
+justify-content:space-between;
+align-items:flex-start;
+gap:40px;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.contact-info{
+flex:1;
+min-width:280px;
+}
+
+.contact-info h3{
+font-size:2rem;
+color:#00A8FF;
+margin-bottom:15px;
+}
+
+.contact-info p{
+line-height:1.8;
+margin-bottom:25px;
+color:#d6e6ff;
+}
+
+.whatsapp-link{
+display:inline-block;
+background:#00A8FF;
+color:#fff;
+padding:14px 24px;
+border-radius:10px;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.whatsapp-link:hover{
+background:#0077cc;
+transform:translateY(-2px);
+}
+
+#contact-form{
+flex:1;
+min-width:320px;
+display:flex;
+flex-direction:column;
+gap:18px;
+}
+
+#contact-form input,
+#contact-form textarea{
+padding:15px;
+border:1px solid rgba(255,255,255,.15);
+border-radius:10px;
+background:#0d1f38;
+color:#fff;
+font-size:16px;
+outline:none;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus{
+border-color:#00A8FF;
+}
+
+#submit-btn{
+background:#00A8FF;
+color:#fff;
+padding:15px;
+border:none;
+border-radius:10px;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;
+transition:.3s;
+}
+
+#submit-btn:hover{
+background:#0077cc;
+}
+
+#form-status{
+margin-top:10px;
+font-weight:bold;
+}
+
+/* ===== FOOTER ===== */
+
+footer{
+margin-top:70px;
+padding:35px 20px;
+text-align:center;
+border-top:1px solid rgba(255,255,255,.1);
+}
+
+.footer-content h3{
+color:#00A8FF;
+margin-bottom:10px;
+}
+
+.footer-content p{
+margin:12px 0;
+}
+
+.back-top{
+display:inline-block;
+margin:18px 0;
+color:#00A8FF;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.back-top:hover{
+color:#66c8ff;
+}
