@@ -1,0 +1,1350 @@
+===== index.html =====
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="icon" type="image/png" href="images/Logo.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sentinel Security</title>
+<meta name="description" content="Sentinel Security - Professional Cybersecurity, Web Security, Network Protection and Digital Security Solutions.">
+
+<meta name="keywords" content="Sentinel Security, Cyber Security, Web Security, Ethical Hacking, Network Security, Pakistan">
+
+<meta name="author" content="Sentinel Security">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo-area">
+
+<img src="images/Logo.png" class="logo">
+
+<div>
+
+<h2>Sentinel Security</h2>
+
+<p>Protecting Your Digital World</p>
+
+</div>
+
+</div>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#services">Services</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section id="home" class="hero">
+
+<div class="hero-left">
+
+<h1>
+
+Professional Cybersecurity Solutions
+
+</h1>
+
+<p>
+
+We protect businesses and individuals from cyber threats using modern security technologies, ethical hacking and digital protection.
+
+</p>
+
+<a href="#services" class="btn">
+
+Explore Services
+
+</a>
+
+</div>
+
+<div class="hero-right">
+
+<img src="images/Logo.png">
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2>
+
+About Sentinel Security
+
+</h2>
+
+<p>
+
+Sentinel Security is a professional cybersecurity company providing penetration testing, network security, cloud protection, security awareness and incident response services.
+
+</p>
+
+</section>
+<section id="services">
+
+<h2>Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Cyber Security</h3>
+<p>Complete protection against cyber attacks and malware.</p>
+</div>
+
+<div class="card">
+<h3>Penetration Testing</h3>
+<p>Identify vulnerabilities before attackers do.</p>
+</div>
+
+<div class="card">
+<h3>Network Security</h3>
+<p>Secure routers, firewalls and enterprise networks.</p>
+</div>
+
+<div class="card">
+<h3>Cloud Security</h3>
+<p>Protect cloud servers and sensitive business data.</p>
+</div>
+
+<div class="card">
+<h3>Incident Response</h3>
+<p>Fast response and recovery after cyber attacks.</p>
+</div>
+
+<div class="card">
+<h3>Security Awareness</h3>
+<p>Train employees to recognize cyber threats.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="stats">
+
+<h2>Our Achievements</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>500+</h3>
+<p>Projects Completed</p>
+</div>
+
+<div class="card">
+<h3>150+</h3>
+<p>Happy Clients</p>
+</div>
+
+<div class="card">
+<h3>24/7</h3>
+<p>Monitoring</p>
+</div>
+
+<div class="card">
+<h3>99.9%</h3>
+<p>Threat Detection</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<div class="contact-left">
+
+<span>CONTACT US</span>
+
+<h2>Let's Secure Your Business.</h2>
+
+<p>
+Whether you need penetration testing, cybersecurity consulting,
+or enterprise protection, our team is ready to help.
+Contact us today and let's strengthen your digital security.
+</p>
+
+<div class="contact-info-box">
+
+<h3>WhatsApp Support</h3>
+
+<p>Fast response within minutes.</p>
+
+<a href="https://wa.me/923459993582?text=Hello%20Sentinel%20Security,%20I%20need%20cybersecurity%20services."
+class="primary-btn"
+target="_blank">
+
+Chat on WhatsApp →
+
+</a>
+
+</div>
+
+</div>
+
+<div class="contact-right">
+
+<form id="contact-form">
+
+<input
+type="text"
+id="name"
+placeholder="Full Name"
+required>
+
+<input
+type="email"
+id="email"
+placeholder="Email Address"
+required>
+
+<input
+type="text"
+id="subject"
+placeholder="Subject">
+
+<textarea
+id="message"
+placeholder="Write your message..."
+required></textarea>
+
+<button
+type="submit"
+class="primary-btn"
+id="submit-btn">
+
+Send Message
+
+</button>
+
+<p id="form-status"></p>
+
+</form>
+
+</div>
+
+</section>
+
+<footer class="site-footer">
+
+<div class="footer-top">
+
+<div class="footer-brand">
+
+<img src="images/Logo.png" class="footer-logo">
+
+<h2>Sentinel Security</h2>
+
+<p>
+Professional Cybersecurity • Penetration Testing • Network Protection
+</p>
+
+</div>
+
+<div class="footer-links">
+
+<h3>Quick Links</h3>
+
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+
+</div>
+
+<div class="footer-contact">
+
+<h3>Contact</h3>
+
+<p>📱 WhatsApp: +92 345 9993582</p>
+
+<p>🌐 Sentinel Security</p>
+
+<a href="https://wa.me/923459993582?text=Hello%20Sentinel%20Security"
+class="primary-btn"
+target="_blank">
+
+Chat Now
+
+</a>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>
+© <span id="year"></span> Sentinel Security. All Rights Reserved.
+</p>
+
+<a href="#home" class="back-top-btn">
+
+⬆ Back To Top
+
+</a>
+
+</div>
+
+</footer>
+<a href="https://wa.me/923459993582?text=Hello%20Sentinel%20Security,%20I%20would%20like%20to%20know%20more%20about%20your%20cybersecurity%20services."
+   class="whatsapp-btn"
+   target="_blank"
+   aria-label="Chat on WhatsApp">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="32"
+     height="32"
+     viewBox="0 0 24 24"
+     fill="white">
+
+<path d="M20.52 3.48A11.86 11.86 0 0012.04 0C5.52 0 .23 5.29.23 11.81c0 2.08.54 4.11 1.57 5.91L0 24l6.45-1.69a11.8 11.8 0 005.59 1.42h.01c6.52 0 11.81-5.29 11.81-11.81a11.76 11.76 0 00-3.34-8.44zM12.05 21.3a9.5 9.5 0 01-4.85-1.33l-.35-.21-3.83 1 1.02-3.73-.23-.38a9.42 9.42 0 01-1.45-5.02c0-5.23 4.25-9.48 9.48-9.48 2.53 0 4.91.99 6.7 2.78a9.4 9.4 0 012.78 6.7c0 5.23-4.25 9.47-9.47 9.47zm5.2-7.11c-.29-.15-1.72-.85-1.99-.95-.27-.1-.46-.15-.65.15-.19.29-.75.95-.92 1.15-.17.19-.34.22-.63.07-.29-.15-1.23-.45-2.35-1.43-.87-.78-1.46-1.74-1.63-2.03-.17-.29-.02-.45.13-.6.13-.13.29-.34.44-.51.15-.17.19-.29.29-.48.1-.19.05-.36-.02-.51-.07-.15-.65-1.57-.89-2.15-.23-.56-.47-.48-.65-.49h-.55c-.19 0-.48.07-.73.36-.25.29-.96.94-.96 2.29s.98 2.66 1.12 2.84c.15.19 1.92 2.93 4.65 4.11.65.28 1.16.45 1.56.58.66.21 1.26.18 1.73.11.53-.08 1.72-.7 1.96-1.37.24-.67.24-1.24.17-1.36-.07-.12-.26-.19-.55-.34z"/>
+
+</svg>
+
+</a>
+<button id="topBtn" title="Go to top">↑</button>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
+
+===== style.css =====
+/* ===================================
+   SENTINEL SECURITY V2
+   STYLE.CSS - PART 1
+=================================== */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:Arial,Helvetica,sans-serif;
+background:#08111f;
+color:#ffffff;
+line-height:1.7;
+}
+
+img{
+max-width:100%;
+display:block;
+}
+
+a{
+text-decoration:none;
+}
+
+header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:#0d1628;
+border-bottom:2px solid #00bfff;
+z-index:999;
+}
+
+nav{
+width:90%;
+max-width:1200px;
+margin:auto;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 0;
+}
+
+.logo-area{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.logo{
+width:70px;
+height:70px;
+border-radius:15px;
+box-shadow:0 0 25px #00bfff;
+}
+
+.logo-area h2{
+color:#00bfff;
+font-size:28px;
+}
+
+.logo-area p{
+font-size:14px;
+color:#bbbbbb;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav ul li a{
+color:white;
+font-size:17px;
+font-weight:bold;
+transition:.3s;
+}
+
+nav ul li a:hover{
+color:#00bfff;
+}
+
+.hero{
+width:90%;
+max-width:1200px;
+margin:auto;
+min-height:100vh;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding-top:120px;
+gap:50px;
+}
+
+.hero-left{
+flex:1;
+}
+
+.hero-left h1{
+font-size:58px;
+line-height:1.2;
+margin-bottom:25px;
+color:#00bfff;
+}
+
+.hero-left p{
+font-size:20px;
+color:#d5d5d5;
+margin-bottom:35px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:#00bfff;
+color:white;
+border-radius:8px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+background:#0099dd;
+transform:translateY(-5px);
+box-shadow:0 0 25px #00bfff;
+}
+
+.hero-right{
+flex:1;
+display:flex;
+justify-content:center;
+}
+
+.hero-right img{
+width:350px;
+border-radius:20px;
+box-shadow:0 0 40px #00bfff;
+}
+/* ==========================
+   ABOUT SECTION
+========================== */
+
+section{
+width:90%;
+max-width:1200px;
+margin:auto;
+padding:50px 0;
+}
+
+section h2{
+text-align:center;
+font-size:42px;
+7margin-bottom:30px;
+color:#00bfff;
+}
+
+#about p{
+max-width:900px;
+margin:auto;
+text-align:center;
+font-size:18px;
+color:#d5d5d5;
+line-height:1.9;
+}
+
+/* ==========================
+   SERVICES
+========================== */
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.card{
+background:#101c2f;
+padding:30px;
+border-radius:18px;
+border:1px solid rgba(0,191,255,.25);
+transition:.4s;
+box-shadow:0 0 12px rgba(0,191,255,.08);
+}
+
+.card:hover{
+transform:translateY(-10px);
+border-color:#00bfff;
+box-shadow:0 0 25px rgba(0,191,255,.5);
+}
+
+.card h3{
+font-size:26px;
+color:#00bfff;
+margin-bottom:15px;
+}
+
+.card p{
+font-size:17px;
+color:#d5d5d5;
+line-height:1.8;
+}
+
+/* ==========================
+   STATS
+========================== */
+
+#stats .card{
+text-align:center;
+}
+
+#stats h3{
+font-size:42px;
+color:#00bfff;
+margin-bottom:10px;
+}
+
+#stats p{
+font-size:18px;
+color:#d5d5d5;
+}
+/* ==========================
+   CONTACT SECTION
+========================== */
+
+#contact{
+padding-bottom:100px;
+}
+
+form{
+max-width:700px;
+margin:40px auto 0;
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+input,
+textarea{
+width:100%;
+padding:16px;
+background:#101c2f;
+border:1px solid #1d3b5a;
+border-radius:10px;
+color:#fff;
+font-size:17px;
+outline:none;
+transition:.3s;
+}
+
+input:focus,
+textarea:focus{
+border-color:#00bfff;
+box-shadow:0 0 15px rgba(0,191,255,.4);
+}
+
+textarea{
+height:180px;
+resize:none;
+}
+
+button{
+padding:16px;
+background:#00bfff;
+color:#fff;
+font-size:18px;
+font-weight:bold;
+border:none;
+border-radius:10px;
+cursor:pointer;
+transition:.3s;
+}
+
+button:hover{
+background:#0099dd;
+transform:translateY(-3px);
+box-shadow:0 0 20px #00bfff;
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+footer{
+background:#0d1628;
+border-top:2px solid #00bfff;
+text-align:center;
+padding:40px 20px;
+}
+
+footer h3{
+font-size:28px;
+color:#00bfff;
+margin-bottom:10px;
+}
+
+footer p{
+color:#cfcfcf;
+margin:8px 0;
+}
+/* ==========================
+   RESPONSIVE DESIGN
+========================== */
+
+@media (max-width:900px){
+
+nav{
+flex-direction:column;
+gap:20px;
+}
+
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero{
+flex-direction:column-reverse;
+text-align:center;
+padding-top:160px;
+}
+
+.hero-left h1{
+font-size:40px;
+}
+
+.hero-left p{
+font-size:18px;
+}
+
+.hero-right img{
+width:250px;
+}
+
+}
+
+@media (max-width:600px){
+
+.logo{
+width:55px;
+height:55px;
+}
+
+.logo-area h2{
+font-size:22px;
+}
+
+.logo-area p{
+font-size:12px;
+}
+
+nav ul{
+gap:15px;
+}
+
+nav ul li a{
+font-size:15px;
+}
+
+section h2{
+font-size:32px;
+}
+
+.hero-left h1{
+font-size:32px;
+}
+
+.hero-left p{
+font-size:16px;
+}
+
+.cards{
+grid-template-columns:1fr;
+}
+
+.btn,
+button{
+width:100%;
+text-align:center;
+}
+
+}
+
+/* ==========================
+   SMOOTH ANIMATIONS
+========================== */
+
+.card{
+animation:fadeUp .8s ease;
+}
+
+@keyframes fadeUp{
+
+from{
+opacity:0;
+transform:translateY(30px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+/* ==========================
+   END OF STYLE.CSS
+========================== */
+html{
+    scroll-padding-top:100px;
+}
+
+section{
+    scroll-margin-top:100px;
+}
+/* Active Navigation */
+nav a.active{
+    color:#00bfff;
+    border-bottom:2px solid #00bfff;
+    transition:.3s;
+}
+/* ===== Premium Button ===== */
+
+.hero .btn{
+    display:inline-block;
+    padding:15px 35px;
+    background:#00bfff;
+    color:#fff;
+    border-radius:10px;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+    transition:.4s;
+    box-shadow:0 0 20px rgba(0,191,255,.5);
+}
+
+.hero .btn:hover{
+    background:#0099cc
+/* WhatsApp Floating Button */
+
+.whatsapp-btn{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    width:60px;
+    height:60px;
+    background:#25D366;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    font-size:30px;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+    transition:.3s;
+    z-index:1000;
+}
+
+.whatsapp-btn:hover{
+    transform:scale(1.1);
+}
+#form-status{
+    margin-top:15px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.success{
+    color:#22c55e;
+}
+
+.error{
+    color:#ef4444;
+}
+/* Scroll To Top */
+
+#topBtn{
+    display:none;
+    position:fixed;
+    bottom:90px;
+    right:20px;
+    width:50px;
+    height:50px;
+    border:none;
+    border-radius:50%;
+    background:#0ea5e9;
+    color:#fff;
+    font-size:22px;
+    cursor:pointer;
+    box-shadow:0 4px 10px rgba(0,0,0,.3);
+    z-index:1000;
+    transition:.3s;
+}
+
+#topBtn:hover{
+    transform:scale(1.1);
+}
+/* ===== CONTACT SECTION ===== */
+
+.contact-wrapper{
+display:flex;
+justify-content:space-between;
+align-items:flex-start;
+gap:40px;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.contact-info{
+flex:1;
+min-width:280px;
+}
+
+.contact-info h3{
+font-size:2rem;
+color:#00A8FF;
+margin-bottom:15px;
+}
+
+.contact-info p{
+line-height:1.8;
+margin-bottom:25px;
+color:#d6e6ff;
+}
+
+.whatsapp-link{
+display:inline-block;
+background:#00A8FF;
+color:#fff;
+padding:14px 24px;
+border-radius:10px;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.whatsapp-link:hover{
+background:#0077cc;
+transform:translateY(-2px);
+}
+
+#contact-form{
+flex:1;
+min-width:320px;
+display:flex;
+flex-direction:column;
+gap:18px;
+}
+
+#contact-form input,
+#contact-form textarea{
+padding:15px;
+border:1px solid rgba(255,255,255,.15);
+border-radius:10px;
+background:#0d1f38;
+color:#fff;
+font-size:16px;
+outline:none;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus{
+border-color:#00A8FF;
+}
+
+#submit-btn{
+background:#00A8FF;
+color:#fff;
+padding:15px;
+border:none;
+border-radius:10px;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;
+transition:.3s;
+}
+
+#submit-btn:hover{
+background:#0077cc;
+}
+
+#form-status{
+margin-top:10px;
+font-weight:bold;
+}
+
+/* ===== FOOTER ===== */
+
+footer{
+margin-top:70px;
+padding:35px 20px;
+text-align:center;
+border-top:1px solid rgba(255,255,255,.1);
+}
+
+.footer-content h3{
+color:#00A8FF;
+margin-bottom:10px;
+}
+
+.footer-content p{
+margin:12px 0;
+}
+
+.back-top{
+display:inline-block;
+margin:18px 0;
+color:#00A8FF;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.back-top:hover{
+color:#66c8ff;
+}
+/* ===== PREMIUM CONTACT ===== */
+
+.contact{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:70px;
+align-items:center;
+padding-top:100px;
+}
+
+.contact-left span{
+display:inline-block;
+color:#4db8ff;
+font-size:.9rem;
+font-weight:700;
+letter-spacing:3px;
+margin-bottom:15px;
+text-transform:uppercase;
+}
+
+.contact-left h2{
+font-family:"Space Grotesk",sans-serif;
+font-size:3.4rem;
+font-weight:700;
+line-height:1.1;
+margin-bottom:20px;
+color:#fff;
+}
+
+.contact-left p{
+font-size:1.05rem;
+line-height:1.9;
+color:#cfd9e6;
+margin-bottom:35px;
+}
+
+.contact-info-box{
+background:rgba(12,22,35,.9);
+border:1px solid rgba(77,184,255,.25);
+border-radius:22px;
+padding:30px;
+box-shadow:0 20px 50px rgba(0,140,255,.15);
+}
+
+.contact-info-box h3{
+font-size:1.4rem;
+margin-bottom:12px;
+color:#4db8ff;
+}
+
+.contact-info-box p{
+margin-bottom:20px;
+}
+
+.contact-right form{
+background:rgba(12,22,35,.92);
+padding:35px;
+border-radius:24px;
+border:1px solid rgba(77,184,255,.18);
+display:flex;
+flex-direction:column;
+gap:18px;
+box-shadow:0 20px 60px rgba(0,140,255,.12);
+}
+
+.contact-right input,
+.contact-right textarea{
+padding:18px;
+background:#081321;
+border:1px solid rgba(255,255,255,.08);
+border-radius:14px;
+color:#fff;
+font-size:16px;
+outline:none;
+transition:.3s;
+}
+
+.contact-right input:focus,
+.contact-right textarea:focus{
+border-color:#3ea6ff;
+box-shadow:0 0 18px rgba(62,166,255,.25);
+}
+
+.contact-right textarea{
+min-height:180px;
+resize:vertical;
+}
+
+.contact .primary-btn{
+display:inline-block;
+padding:16px 28px;
+border:none;
+border-radius:14px;
+background:linear-gradient(135deg,#009dff,#0066ff);
+color:#fff;
+font-weight:700;
+cursor:pointer;
+transition:.3s;
+}
+
+.contact .primary-btn:hover{
+transform:translateY(-3px);
+box-shadow:0 12px 30px rgba(0,120,255,.35);
+}
+
+@media(max-width:900px){
+
+.contact{
+grid-template-columns:1fr;
+}
+
+.contact-left h2{
+font-size:2.5rem;
+}
+
+}
+/* ===== PREMIUM FOOTER ===== */
+
+.site-footer{
+background:#081321;
+padding:70px 8% 30px;
+border-top:1px solid rgba(255,255,255,.08);
+}
+
+.footer-top{
+display:grid;
+grid-template-columns:2fr 1fr 1fr;
+gap:50px;
+margin-bottom:40px;
+}
+
+.footer-logo{
+width:70px;
+margin-bottom:15px;
+}
+
+.footer-brand h2{
+font-size:2rem;
+margin-bottom:15px;
+}
+
+.footer-brand p,
+.footer-contact p{
+color:#b8c7d9;
+line-height:1.8;
+}
+
+.footer-links{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.footer-links a{
+color:#dbe8f5;
+transition:.3s;
+}
+
+.footer-links a:hover{
+color:#4db8ff;
+}
+
+.footer-bottom{
+margin-top:40px;
+padding-top:25px;
+border-top:1px solid rgba(255,255,255,.08);
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.back-top-btn{
+padding:12px 24px;
+background:linear-gradient(135deg,#009dff,#0066ff);
+border-radius:12px;
+font-weight:700;
+color:#fff;
+}
+
+@media(max-width:900px){
+
+.footer-top{
+grid-template-columns:1fr;
+}
+
+.footer-bottom{
+flex-direction:column;
+text-align:center;
+}
+
+}
+/* ===== PREMIUM BACK TO TOP ===== */
+
+#topBtn{
+position:fixed;
+right:25px;
+bottom:95px;
+width:58px;
+height:58px;
+border:none;
+border-radius:50%;
+background:linear-gradient(135deg,#00a2ff,#005dff);
+color:#fff;
+font-size:24px;
+font-weight:700;
+cursor:pointer;
+display:flex;
+align-items:center;
+justify-content:center;
+box-shadow:0 15px 35px rgba(0,110,255,.35);
+transition:.3s ease;
+z-index:999;
+}
+
+#topBtn:hover{
+transform:translateY(-6px) scale(1.08);
+box-shadow:0 20px 45px rgba(0,110,255,.45);
+}
+
+.whatsapp-btn{
+bottom:170px !important;
+}
+
+===== script.js =====
+// Sentinel Security JS
+
+// Smooth scroll for navigation
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        const target = document.querySelector(this.getAttribute('href'));
+
+        if(target){
+            target.scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+
+// Fade-in animation on scroll
+const cards = document.querySelectorAll('.card');
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.style.opacity = "1";
+            entry.target.style.transform = "translateY(0)";
+        }
+    });
+},{
+    threshold:0.2
+});
+
+cards.forEach(card=>{
+    card.style.opacity="0";
+    card.style.transform="translateY(40px)";
+    card.style.transition="0.8s ease";
+    observer.observe(card);
+});
+
+// ===== EmailJS Contact Form =====
+
+emailjs.init({
+    publicKey: "j0zPQIImF3ifisgBJ",
+});
+
+const form = document.querySelector("form");
+
+if (form) {
+    form.addEventListener("submit", function (e) {
+        e.preventDefault();
+const btn=document.getElementById("submit-btn");
+
+btn.textContent="Sending...";
+        emailjs.sendForm(
+            "service_gi5ul1r",
+            "template_t8zrnhj",
+            this
+        )
+.then(() => {
+
+    const status=document.getElementById("form-status");
+    const btn=document.getElementById("submit-btn");
+
+    status.className="success";
+    status.textContent="✅ Message sent successfully.";
+
+    btn.textContent="Send Message";
+
+    form.reset();
+
+})
+
+.catch((error)=>{
+
+    const status=document.getElementById("form-status");
+    const btn=document.getElementById("submit-btn");
+
+    status.className="error";
+    status.textContent="❌ Failed to send message.";
+
+    btn.textContent="Send Message";
+
+    console.error(error);
+
+});
+    });
+
+}
+// Active Navigation on Scroll
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll("nav a");
+
+window.addEventListener("scroll", () => {
+    let current = "";
+
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop - 120;
+        const sectionHeight = section.clientHeight;
+
+        if (window.scrollY >= sectionTop) {
+            current = section.getAttribute("id");
+        }
+    });
+
+    navLinks.forEach(link => {
+        link.classList.remove("active");
+
+        if (link.getAttribute("href") === "#" + current) {
+            link.classList.add("active");
+        }
+    });
+});
+// Scroll To Top
+
+const topBtn = document.getElementById("topBtn");
+
+window.addEventListener("scroll", () => {
+
+    if (window.scrollY > 300) {
+        topBtn.style.display = "block";
+    } else {
+        topBtn.style.display = "none";
+    }
+
+});
+
+topBtn.addEventListener("click", () => {
+
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+
+});
+// ===============================
+// AUTO YEAR
+// ===============================
+
+const year = document.getElementById("year");
+
+if (year) {
+    year.textContent = new Date().getFullYear();
+}
+
+// ===============================
+// SMOOTH BACK TO TOP
+// ===============================
+
+const backTop = document.querySelector(".back-top");
+
+if (backTop) {
+
+    backTop.addEventListener("click", function (e) {
+
+        e.preventDefault();
+
+        window.scrollTo({
+
+            top: 0,
+
+            behavior: "smooth"
+
+        });
+
+    });
+
+}

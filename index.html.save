@@ -1,0 +1,265 @@
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#services">Services</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section id="home" class="hero">
+
+<div class="hero-left">
+
+<h1>
+
+Professional Cybersecurity Solutions
+
+</h1>
+
+<p>
+
+We protect businesses and individuals from cyber threats using modern security technologies, ethical hacking and digital protection.
+
+</p>
+
+<a href="#services" class="btn">
+
+Explore Services
+
+</a>
+
+</div>
+
+<div class="hero-right">
+
+<img src="images/Logo.png">
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2>
+
+About Sentinel Security
+
+</h2>
+
+<p>
+
+Sentinel Security is a professional cybersecurity company providing penetration testing, network security, cloud protection, security awareness and incident response services.
+
+</p>
+
+</section>
+<section id="services">
+
+<h2>Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Cyber Security</h3>
+<p>Complete protection against cyber attacks and malware.</p>
+</div>
+
+<div class="card">
+<h3>Penetration Testing</h3>
+<p>Identify vulnerabilities before attackers do.</p>
+</div>
+
+<div class="card">
+<h3>Network Security</h3>
+<p>Secure routers, firewalls and enterprise networks.</p>
+</div>
+
+<div class="card">
+<h3>Cloud Security</h3>
+<p>Protect cloud servers and sensitive business data.</p>
+</div>
+
+<div class="card">
+<h3>Incident Response</h3>
+<p>Fast response and recovery after cyber attacks.</p>
+</div>
+
+<div class="card">
+<h3>Security Awareness</h3>
+<p>Train employees to recognize cyber threats.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="stats">
+
+<h2>Our Achievements</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>500+</h3>
+<p>Projects Completed</p>
+</div>
+
+<div class="card">
+<h3>150+</h3>
+<p>Happy Clients</p>
+</div>
+
+<div class="card">
+<h3>24/7</h3>
+<p>Monitoring</p>
+</div>
+
+<div class="card">
+<h3>99.9%</h3>
+<p>Threat Detection</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact-modern">
+
+<div class="contact-left">
+
+<span class="contact-tag">04 — CONTACT</span>
+
+<h2>Let's make your<br>digital world safer.</h2>
+
+<p>
+Have a question about our cybersecurity services?
+Send us a message or connect with us on WhatsApp.
+</p>
+
+<a href="https://wa.me/923459993582?text=Hello%20Sentinel%20Security"
+class="contact-whatsapp"
+target="_blank">
+
+<div class="icon">↗</div>
+
+<div>
+<small>WHATSAPP</small>
+<h3>Chat with Sentinel Security</h3>
+</div>
+
+</a>
+
+</div>
+
+<form class="contact-form">
+
+<h3>Send a message</h3>
+
+<p>WE'LL BE IN TOUCH</p>
+
+<input type="text"
+name="name"
+placeholder="Enter your name"
+required>
+
+<input type="email"
+name="email"
+placeholder="you@example.com"
+required>
+
+<textarea
+name="message"
+placeholder="How can we help?"
+required></textarea>
+
+<button id="submit-btn">
+Send Message ↗
+</button>
+
+<p id="form-status"></p>
+
+</form>
+
+</section>
+
+<footer class="site-footer">
+
+<div class="footer-top">
+
+<div class="footer-brand">
+
+<img src="images/Logo.png" class="footer-logo">
+
+<h2>Sentinel Security</h2>
+
+<p>
+Professional Cybersecurity • Penetration Testing • Network Protection
+</p>
+
+</div>
+
+<div class="footer-links">
+
+<h3>Quick Links</h3>
+
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+
+</div>
+
+<div class="footer-contact">
+
+<h3>Contact</h3>
+
+<p>📱 WhatsApp: +92 345 9993582</p>
+
+<p>🌐 Sentinel Security</p>
+
+<a href="https://wa.me/923459993582?text=Hello%20Sentinel%20Security"
+class="primary-btn"
+target="_blank">
+
+Chat Now
+
+</a>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>
+© <span id="year"></span> Sentinel Security. All Rights Reserved.
+</p>
+
+<a href="#home" class="back-top-btn">
+
+⬆ Back To Top
+
+</a>
+
+</div>
+
+</footer>
+<a href="https://wa.me/923459993582?text=Hello%20Sentinel%20Security,%20I%20would%20like%20to%20know%20more%20about%20your%20cybersecurity%20services."
+   class="whatsapp-btn"
+   target="_blank"
+   aria-label="Chat on WhatsApp">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="32"
+     height="32"
+     viewBox="0 0 24 24"
+   
